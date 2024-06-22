@@ -13,10 +13,10 @@ const handleSubmit = () => {
     setTodos("");
   };
 
-  
+
   return (
     <>
-          <h1 className="text-3xl font-bold underline  text-center my-8">Todo</h1>
+          <h1 className="text-3xl font-bold underline text-white  text-center my-8">Todo</h1>
 
       <form
         onSubmit={handleSubmit}

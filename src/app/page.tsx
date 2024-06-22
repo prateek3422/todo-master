@@ -1,5 +1,5 @@
 "use client"
-import { AddTodo } from "@/components/addTodo";
+import { AddTodo } from "@/components/AddTodo";
 import { ShowTodos } from "@/components/ShowTodos";
 import { useEffect, useState } from "react";
 
@@ -14,8 +14,12 @@ export default function Home() {
   if(!isClient) return null;
   return (
     <main>
+
+
+      
       <AddTodo />
       <ShowTodos />
+
     </main>
   );
 }
